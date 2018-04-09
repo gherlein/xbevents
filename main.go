@@ -1,0 +1,54 @@
+package xbevents
+
+type XBevent struct {
+	Code int8
+	Name string
+	X    int16
+	Y    int16
+}
+
+const (
+	LJOYX = 0
+	LJOYY = 1
+	RJOYX = 2
+	RJOYY = 3
+)
+
+const (
+	LJOY = 1
+	RJOY
+	A_UP
+	A_DOWN
+	B_UP
+	B_DOWN
+	X_UP
+	X_DOWN
+	Y_UP
+	Y_DOWN
+	BACK_UP
+	BACK_DOWN
+	START_UP
+	START_DOWN
+	LTOP_UP
+	LTOP_DOWN
+	LBOT_UP
+	LBOT_DOWN
+	RTOP_UP
+	RTOP_DOWN
+	RBOT_UP
+	RBOT_DOWN
+	RSTICK_UP
+	RSTICK_DOWN
+	LSTICK_UP
+	LSTICK_DOWN
+	GUIDE_UP
+	GUIDE_DOWN
+	PADL_UP
+	PADL_DOWN
+	PADR_UP
+	PADR_DOWN
+	PADU_UP
+	PADU_DOWN
+	PADD_UP
+	PADD_DOWN
+)
